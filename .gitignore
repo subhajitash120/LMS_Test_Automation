@@ -1,0 +1,23 @@
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# TypeScript build output
+dist/
+*.tsbuildinfo
+
+# Playwright
+playwright-report/
+test-results/
+trace.zip
+*.mp4
+*.png
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Environment variables
+.env
