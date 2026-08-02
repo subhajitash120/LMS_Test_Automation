@@ -26,4 +26,4 @@ jobs:
         run: npx playwright install --with-deps
 
       - name: Run only auth tests
-        run: npx playwright test tests/auth.spec.ts --headed
+        run: npx playwright test tests/auth.spec.ts
